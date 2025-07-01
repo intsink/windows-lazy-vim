@@ -1,4 +1,4 @@
-![Screenshot of LazyVim](screenshort/screenshort%202025-07-01%20190817.png)
+
 
 # 在 Windows 11 on ARM 上安装并配置 LazyVim (由 Gemini CLI 完成)
 
@@ -12,12 +12,16 @@
 
 This folder contains all the necessary files and instructions to successfully install Neovim and configure LazyVim in a Windows 11 on ARM environment, using a combination of PowerShell scripts and manual configuration. The entire process was assisted by the Google Gemini CLI.
 
+![Screenshot of LazyVim](screenshort/screenshort%202025-07-01%20190817.png)
+
 ---
 *   **原生 Arm64 GCC 项目**: [Windows-on-ARM-Experiments/gcc-woarm64](https://github.com/Windows-on-ARM-Experiments/gcc-woarm64)
-    **请注意**: 这是一个高级步骤，需要从源代码编译工具链。请遵循该代码仓库中的说明。本项目的自动化安装脚本**不会**为您处理此操作。
+
+**请注意**: 这是一个高级步骤，需要从源代码编译工具链。请遵循该代码仓库中的说明。本项目的自动化安装脚本**不会**为您处理此操作。
 
 *   **Native Arm64 GCC Project**: [Windows-on-ARM-Experiments/gcc-woarm64](https://github.com/Windows-on-ARM-Experiments/gcc-woarm64)
-    **Note**: This is an advanced step and requires compiling the toolchain from source. Please follow the instructions in that repository. The automated setup script in this project does **not** handle this for you.
+
+**Note**: This is an advanced step and requires compiling the toolchain from source. Please follow the instructions in that repository. The automated setup script in this project does **not** handle this for you.
 
 
 
