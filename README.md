@@ -69,9 +69,12 @@ If you have the technical skills, you can build and install a native GCC compile
 
 3.  **EN**: Execute the setup script by running the following command:
     **中**: 运行以下命令来执行安装脚本：
-    ```powershell
+        ```powershell
 powershell -ExecutionPolicy Bypass -File .\setup_neovim.ps1
     ```
+
+    **EN**: Please replace the relevant paths in the code with your own.
+    **中**: 请把代码中的相关路径替换为你自己的。
 
 4.  **EN**: After the script finishes, **it is critical that you close and reopen the PowerShell terminal** to ensure the new environment variables (especially for the C compiler) are loaded.
     **中**: 脚本执行完毕后，**务必关闭并重新打开 PowerShell 终端**，以确保新的环境变量（特别是 C 编译器的路径）被成功加载。

@@ -5,7 +5,7 @@
 
 -- 1. Define the exact path to the compiler's "bin" directory.
 --    Using forward slashes is safer and avoids escaping issues.
-local compiler_bin_path = "C:/Users/ricev/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+local compiler_bin_path = "C:/Users/<your_name>/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
 
 -- 2. Define the full path to the gcc.exe executable.
 local gcc_executable = compiler_bin_path .. "/gcc.exe"
